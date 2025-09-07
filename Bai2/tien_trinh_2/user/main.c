@@ -33,7 +33,7 @@ int main(){
         if(!GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_0)){ 
             cnt++;
             while(!GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_0));
-						delay(100);
+            delay(200);
         }
         if(cnt % 2 == 1){
             GPIO_ResetBits(GPIOA,GPIO_Pin_0); 

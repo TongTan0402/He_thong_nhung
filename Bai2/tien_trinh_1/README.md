@@ -57,3 +57,6 @@ Chương trình này thực hiện việc điều khiển toàn bộ các chân 
 ## Lưu ý:
 - Đảm bảo các chân GPIOA và GPIOB đã được kết nối với LED và có điện trở hạn dòng phù hợp.
 - Độ trễ có thể thay đổi tùy theo yêu cầu và có thể không chính xác do sử dụng vòng lặp for để tạo độ trễ.
+
+
+## **Video demo: [Watch Demo Video](https://drive.google.com/file/d/1fY6Xg9NW48JIbaf5GRX9_gnhBZxvL2FO/view?usp=sharing)**

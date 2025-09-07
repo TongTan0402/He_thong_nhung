@@ -6,14 +6,14 @@
 - Vào `Project -> Manage -> Run-Time Environment`
 - Chọn các thư viện cần thiết (ví dụ: GPIO, USART, etc.)
 - Nhấn OK để hoàn tất việc thêm thư viện
-- Vào `Project -> Options for Target 'Target 1'`
+- Vào `Project -> Options for Target`
 - Cấu hình các thông số như: Clock, Debug, Output, etc.
 - Vào `File -> New` để tạo file mã nguồn mới
 - Lưu file với phần mở rộng `.c` hoặc `.h` (ví dụ: `main.c`)
 - Viết mã nguồn trong file vừa tạo
 - Vào `Project -> Build Target` để biên dịch mã nguồn
 - Kiểm tra lỗi trong cửa sổ Output
-- Kết nối vi điều khiển với máy tính qua cáp lập trình
+- Kết nối vi điều khiển với máy tính qua ST-Link
 - Vào `Flash -> Download` để nạp mã nguồn vào vi điều khiển
 
 # **LẬP TRÌNH NHẤP NHÁY LED PC13 TRÊN STM32F103C8T6**
@@ -59,4 +59,4 @@ int main(){
 
 ```
 
-- Video demo: [Watch Demo Video](https://drive.google.com/file/d/1KL8eQFrpdIDMnKsJEWwD6RB7-p9vwk13/view?usp=sharing)
+## **Video demo: [Watch Demo Video](https://drive.google.com/file/d/1KL8eQFrpdIDMnKsJEWwD6RB7-p9vwk13/view?usp=sharing)**

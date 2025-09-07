@@ -66,3 +66,6 @@ int main(){
 
 - Đảm bảo chân PA0 kết nối với LED và PB0 kết nối với nút nhấn, có điện trở hạn dòng phù hợp.
 - Độ trễ trong hàm delay chỉ mang tính chất tương đối, có thể điều chỉnh cho phù hợp với yêu cầu thực tế.
+
+
+## **Video demo: [Watch Demo Video](https://drive.google.com/file/d/1fHcIk0Eccdw5ve4V0ItSZ8i8tZira997/view?usp=sharing)**
