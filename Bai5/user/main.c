@@ -4,10 +4,10 @@
 char ONLED[] = "ON";
 char OFFLED[] = "OFF";
 
-char pcr;
-uint16_t stt;
-uint16_t cnt = 0;
-char res[100];
+volatile char pcr;
+volatile uint16_t stt;
+volatile uint16_t cnt = 0;
+volatile char res[100];
 
 void Config_GPIO();
 void Config_Uart(uint32_t baudrate);
