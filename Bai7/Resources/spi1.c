@@ -39,8 +39,8 @@ void SPI1_Config(void)
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-	NRF24L01_CE_LOW();
-	NRF24L01_CSN_HIGH();
+	NRF_CE_LOW();
+	NRF_CSN_HIGH();
 }
 
 uint16_t SPI1_ReadWrite(uint16_t data)

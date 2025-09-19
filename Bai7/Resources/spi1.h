@@ -9,10 +9,10 @@ extern "C"{
 #define CSN_PIN 		GPIO_Pin_4
 
 
-#define NRF24L01_CE_HIGH()   GPIOA->BSRR = CE_PIN
-#define NRF24L01_CE_LOW()    GPIOA->BRR  = CE_PIN
-#define NRF24L01_CSN_HIGH()  GPIOA->BSRR = CSN_PIN
-#define NRF24L01_CSN_LOW()   GPIOA->BRR  = CSN_PIN
+#define NRF_CE_HIGH()   GPIOA->BSRR = CE_PIN
+#define NRF_CE_LOW()    GPIOA->BRR  = CE_PIN
+#define NRF_CSN_HIGH()  GPIOA->BSRR = CSN_PIN
+#define NRF_CSN_LOW()   GPIOA->BRR  = CSN_PIN
 
 
 void SPI1_Config(void);
