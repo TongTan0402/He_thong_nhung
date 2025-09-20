@@ -154,8 +154,8 @@ void UARTx_Config(USART_TypeDef *UART, uint32_t baudrate, uint8_t remap)
 			GPIO_Init(GPIOA, &GPIO_InitStruct);
 		}
 		
-		// NVIC_SetPriority(USART1_IRQn, 0);
-		// NVIC_EnableIRQ(USART1_IRQn);
+		NVIC_SetPriority(USART1_IRQn, 0);
+		NVIC_EnableIRQ(USART1_IRQn);
 	}
 	
 	else if(UART == USART2)

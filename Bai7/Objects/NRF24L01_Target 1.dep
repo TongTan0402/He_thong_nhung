@@ -1,6 +1,6 @@
 Dependencies for Project 'NRF24L01', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6140000::V6.14::ARMCLANG
-F (.\Resources\main.c)(0x68CD7D80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+F (.\Resources\main.c)(0x68CEA02E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
 I (Resources\all_header.h)(0x68CD7C77)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (RTE\_Target_1\RTE_Components.h)(0x68C90257)
@@ -19,12 +19,13 @@ I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm3
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-I (Resources\nrf24l01.h)(0x68CD7CA6)
-I (Resources\spi1.h)(0x68CD7C78)
+I (Resources\nrf24l01.h)(0x68CEA03F)
+I (Resources\spi1.h)(0x68CD83C1)
 I (Resources\uart.h)(0x68AB178D)
 I (Resources\delay.h)(0x68C1B917)
-F (.\Resources\nrf24l01.c)(0x68CD7C75)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nrf24l01.o -MD)
-I (Resources\nrf24l01.h)(0x68CD7CA6)
+F (.\Resources\nrf24l01.c)(0x68CE9DB5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nrf24l01.o -MD)
+I (Resources\nrf24l01.h)(0x68CEA03F)
+I (Resources\all_header.h)(0x68CD7C77)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (RTE\_Target_1\RTE_Components.h)(0x68C90257)
 I (D:\Setup\Keilc\Pack\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6851FB20)
@@ -42,10 +43,12 @@ I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm3
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-I (Resources\spi1.h)(0x68CD7C78)
-F (.\Resources\nrf24l01.h)(0x68CD7CA6)()
-F (.\Resources\spi1.c)(0x68CD74BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/spi1.o -MD)
-I (Resources\spi1.h)(0x68CD7C78)
+I (Resources\spi1.h)(0x68CD83C1)
+I (Resources\uart.h)(0x68AB178D)
+I (Resources\delay.h)(0x68C1B917)
+F (.\Resources\nrf24l01.h)(0x68CEA03F)()
+F (.\Resources\spi1.c)(0x68CE9DD3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/spi1.o -MD)
+I (Resources\spi1.h)(0x68CD83C1)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (RTE\_Target_1\RTE_Components.h)(0x68C90257)
 I (D:\Setup\Keilc\Pack\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6851FB20)
@@ -63,7 +66,7 @@ I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm3
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-F (.\Resources\spi1.h)(0x68CD7C78)()
+F (.\Resources\spi1.h)(0x68CD83C1)()
 F (.\Resources\all_header.h)(0x68CD7C77)()
 F (.\Resources\delay.c)(0x68C252BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/delay.o -MD)
 I (Resources\delay.h)(0x68C1B917)
@@ -85,7 +88,7 @@ I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm3
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
 F (.\Resources\delay.h)(0x68C1B917)()
-F (.\Resources\uart.c)(0x68CD7BFB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/uart.o -MD)
+F (.\Resources\uart.c)(0x68CE755E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-ID:/Setup/Keilc/Pack/ARM/CMSIS/6.2.0/CMSIS/Core/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-ID:/Setup/Keilc/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/uart.o -MD)
 I (Resources\uart.h)(0x68AB178D)
 I (D:\Setup\Keilc\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (RTE\_Target_1\RTE_Components.h)(0x68C90257)

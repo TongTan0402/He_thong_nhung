@@ -16,7 +16,7 @@ extern "C"{
 
 
 void SPI1_Config(void);
-uint16_t SPI1_ReadWrite(uint16_t data);
+uint16_t SPI1_Transfer(uint16_t data);
 
 #ifdef __cplusplus
 }

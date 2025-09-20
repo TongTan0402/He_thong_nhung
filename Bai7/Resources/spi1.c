@@ -27,7 +27,7 @@ void SPI1_Config(void)
 	SPI_InitStructure.SPI_CPOL 							= SPI_CPOL_Low;
 	SPI_InitStructure.SPI_CPHA 							= SPI_CPHA_1Edge;
 	SPI_InitStructure.SPI_NSS 							= SPI_NSS_Soft;
-	SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_128;
+	SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8;
 	SPI_InitStructure.SPI_FirstBit 					= SPI_FirstBit_MSB;
 	SPI_InitStructure.SPI_CRCPolynomial 		= 7;
 	SPI_Init(SPI1, &SPI_InitStructure);
@@ -43,7 +43,7 @@ void SPI1_Config(void)
 	NRF_CSN_HIGH();
 }
 
-uint16_t SPI1_ReadWrite(uint16_t data)
+uint16_t SPI1_Transfer(uint16_t data)
 {
 	while (SPI_I2S_GetFlagStatus(SPI1, SPI_I2S_FLAG_TXE) == RESET);
 	SPI_I2S_SendData(SPI1, data);

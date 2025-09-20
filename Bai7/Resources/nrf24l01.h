@@ -3,10 +3,12 @@
 #ifdef __cplusplus
 extern "C"{
 #endif
-#include "stm32f10x.h"                  // Device header
+#include "all_header.h"     
 
-// #define TX_MODE
+#define TX_MODE
 
+
+#define ADDRESS_LENGTH  5
 
 // SPI Commands
 #define NRF_CMD_R_REGISTER         0x00
@@ -103,7 +105,7 @@ extern "C"{
 
 
 #ifdef TX_MODE
-void NRF_TX_Mode_Init(uint8_t *addr, uint8_t channel);
+void NRF_TX_Mode_Init(uint8_t *addr, uint8_t channel, uint8_t size_of_payload);
 void NRF_SendData(uint8_t *data, uint8_t len);
 
 #else
@@ -114,6 +116,11 @@ uint8_t NRF_DataReady(void);
 void NRF_ReadData(uint8_t *data, uint8_t len);
 #endif
 
+void NRF_Flush_RX(void);
+void NRF_Flush_TX(void);
+
+void NRF_WriteReg_WithOneBit(uint8_t reg, uint8_t bit, uint8_t value);
+uint8_t NRF_ReadReg_WithOneBit(uint8_t reg, uint8_t bit);
 void NRF_WriteReg_WithOneByte(uint8_t reg, uint8_t value);
 uint8_t NRF_ReadReg_WithOneByte(uint8_t reg);
 void NRF_WriteReg_WithMultiBytes(uint8_t reg, uint8_t *data, uint8_t len);
